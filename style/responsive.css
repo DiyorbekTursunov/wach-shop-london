@@ -1,0 +1,86 @@
+@media (min-width:1620px) {
+    .swiper-container{
+        max-width: 100%;
+        overflow: hidden;
+        padding: 50px;
+    }
+}
+@media (max-width:768px){
+    .tr-img{
+        margin-right: 50px;
+    }
+    .bonner-icon button{
+        width: 15px;
+    }
+    .swiper-text p{
+        font-size: 10px;
+    }
+    .footer-nav{
+        padding: 10px;
+    }
+    .fut{
+        margin-left: 25px;
+    }
+    .home-shop{
+        border-radius: 0;
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .shop-img img{
+        max-width: 80%;
+    }
+    .shop-text{
+        margin-right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .shop-text p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .perent-shop-text{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .bg-2-text p{
+        font-size: 15px;
+    }
+    .perent-bg-card{
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media(max-width:550px){
+    .icon-1{
+        padding: 0;
+        margin: 0;
+    }
+    .icon-2{
+        padding: 0;
+        margin: 0;
+    }
+    .icon-3{
+        padding: 0;
+        margin: 0;
+    }
+    .icon-4{
+        padding: 0;
+        margin: 0;
+    }
+    .bg-text p{
+        position: absolute;
+        font-size: 20px;
+    }
+}
+@media(max-width:320px){
+    .-text-home-btn-1{
+        width: 100px;
+    }
+}
+
+@media (max-width:425px){
+    
+}

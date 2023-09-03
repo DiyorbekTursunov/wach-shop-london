@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1840px;
+    margin: 0 auto;
+}
+
+.translate{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.tr-text{
+    margin-right: 4px;
+}
+.tr-btn-2{
+    background-color: transparent;
+    border: none;
+    width: 6px;
+    height: 6px;
+    margin-right: 12px;
+}
+.tr-img{
+    display: flex;
+    align-items: center;
+    height: 48px;
+    margin-right: 177px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    background-color: #D7D8D2;   
+    height: 165px;
+    align-items: center;
+}
+.logo-banner{
+    display: flex;
+    align-items: center;
+}
+.icon-0{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.bonner-icon button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding-left: 35px;
+}
+
+.logo-banner-img{
+    margin-left: 5px;
+}
+.navbar a{
+    text-decoration: none;
+    color: #494949;
+    font-family: 'Bilo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    align-items: center;
+}
+.home-btn button{
+    width: 226px;
+    height: 48px;
+    left: 178px;
+    top: 576px;
+    background: #494949;
+    border-radius: 10px;
+    color: #fff;
+    font-family: 'Bilo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+.bg1{
+    margin-left: 222px;
+    margin-top: 74px;
+}
+.bg{
+    background-image: url("../img/bg-img-1.png");
+    overflow: hidden;
+    height: 600px;
+    margin: 0 auto;
+}
+.bg-text{
+    color: #FFFFFF;
+    font-size: 36px;
+    width: 784px;
+    height: 150px;
+    opacity: .7;
+}
+.home-text{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 34px;
+}
+.home-text p{
+    font-family: 'Bilo';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    color: #494949;
+}
+.home-navbar a{
+    text-decoration: none;
+    color: #494949;
+    font-family: 'Bilo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.home-navbar{
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    align-items: center;
+}
+.swiper-text p{
+    font-size: 20px;
+}
+.swiper-t-2 {
+    color: #940008;
+}
+.swiper-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 77px;
+}
+.swiper-container {
+    max-width: 100%;
+}
+.swiper-img img{
+    max-width: 100%;
+}
+.Ellipse{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 127px;
+}
+.Ellipse img{
+    padding-left: 72px;
+}
+.bg-2{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F6F6F3;
+    max-width: 1919px;
+}
+.bg-2-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.perent-bg-card{
+    width:  50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bg-2-text p{
+    text-align: center;
+    width: 603px;
+    height: 94px;
+    font-family: 'Bilo';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 47px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #494949;
+}
+.-text-home-btn button{
+    width: 226px;
+    height: 48px;
+    background: #494949;
+    border-radius: 10px;
+    color: #fff;
+    font-family: 'Bilo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.-text-home-btn-1{
+    width: 226px;
+    height: 48px;
+    background: #494949;
+    border-radius: 10px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 26px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+.home-shop{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 132px;
+    background-color: #F6F6F3;
+    height: 801px;
+    border-radius: 500px 0 0 500px;
+    margin-left: 178px;
+}
+.text-1{
+    font-family: 'Bilo';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 47px;
+    color: #494949;
+}
+.text-2{
+    font-family: 'Bilo';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 31px;
+    color: #494949;
+}
+.shop-img img{
+    max-width:100%;
+}
+.title p{
+    font-family: 'Bilo';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    color: #494949;
+    margin-top: 75px;
+}
+.footer-text p{
+    font-family: 'Bilo';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    color: #494949;
+}
+.fut-btn{
+    width: 390px;
+    height: 48px;
+    background: #494949;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Bilo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    justify-content: center;
+}
+.footer-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+}
+.fut-card p{
+    font-family: 'Bilo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 177%;
+    color: #656565;    
+}
+.card-1-text{
+    display: inline-block;
+    margin-left: 6px;
+    font-family: 'Bilo';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 31px;
+    color: #494949;
+}
+.footer-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 27px 180px;
+}
+.fut{
+    display: flex;
+    margin-left: 290px;
+    align-items: center;
+    padding-bottom: 39px;
+}
+.description p{
+    font-family: 'Bilo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 155.5%;
+    color: #656565;    
+}
+
+.sponsors-img{
+    margin-left: 83px;
+    padding-left: 19px ;
+}
+.amex{
+    width: 28px;
+    height: 20px;
+}
+.mastercard{
+    width: 20px;
+    height: 11px;    
+}
+.nav-fut{
+    background-color: #D7D8D2;
+    margin-top: 144px;
+}
+.bg-2-bg img{
+    max-width: 100%;
+}
+.icon-input{
+    padding: 10px 0 ;
+    border-radius: 5px;
+    border: none;
+
+}   
